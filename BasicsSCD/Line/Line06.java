@@ -1,10 +1,12 @@
 package com.epam.IntroductionToJavaOnline.BasicsSCD.Line;
 
-/*
-Для данной области составить линейную программу, которая печатает true, если точка с координатами (х, у)
-принадлежит закрашенной области, и false — в противном случае: */
+/**
+ * @author Potapov Alexey;
+ * Для данной области составить линейную программу, которая печатает true, если точка с координатами (х, у)
+ * принадлежит закрашенной области, и false — в противном случае:
+ */
 
-public class Line6 {
+public class Line06 {
     static int coordX = 1;
     static int coordY = 1;
 

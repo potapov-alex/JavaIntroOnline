@@ -1,8 +1,11 @@
 package com.epam.IntroductionToJavaOnline.BasicsSCD.Line;
 
-//найдите значение функции z=((a-3)*b/2)+c
+/**
+ * @author Potapov Alexey;
+ * найдите значение функции z=((a-3)*b/2)+c
+ */
 
-public class Line1 {
+public class Line01 {
     static void function(int a, int b, int c) {
         int z = ((a - 3) * b / 2) + c;
     }
