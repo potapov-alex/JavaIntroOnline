@@ -1,7 +1,8 @@
 package com.epam.IntroductionToJavaOnline.BasicsSCD.Branch;
 
 /**
- * @author potap; Даны три точки А(х1,у1), В(х2,у2) и С(х3,у3). Определить,
+ * @author @author Potapov Alexey;
+ * Даны три точки А(х1,у1), В(х2,у2) и С(х3,у3). Определить,
  * будут ли они расположены на одной прямой.
  */
 

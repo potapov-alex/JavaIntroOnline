@@ -1,7 +1,8 @@
 package com.epam.IntroductionToJavaOnline.BasicsSCD.Branch;
 
 /**
- * @author potap; find max(min(a,b),min(c,d))
+ * @author @author Potapov Alexey;
+ * find max(min(a,b),min(c,d))
  */
 
 public class Branch02 {
