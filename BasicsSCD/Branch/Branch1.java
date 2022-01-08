@@ -1,2 +1,4 @@
-package com.epam.IntroductionToJavaOnline.BasicsSCD.Branch;public class Branch1 {
+package com.epam.IntroductionToJavaOnline.BasicsSCD.Branch;
+
+public class Branch1 {
 }
