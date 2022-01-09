@@ -1,7 +1,8 @@
 package com.epam.IntroductionToJavaOnline.BasicsSCD.Cycles;
 
 /**
- * @author potap; Вычислить значения функции на отрезке [а,b] c шагом h:
+ * @author Potapov Alexey;
+ * Вычислить значения функции на отрезке [а,b] c шагом h:
  */
 
 public class Cycle02 {
