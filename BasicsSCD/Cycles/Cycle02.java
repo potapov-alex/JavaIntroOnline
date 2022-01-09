@@ -6,20 +6,26 @@ package com.epam.IntroductionToJavaOnline.BasicsSCD.Cycles;
 
 public class Cycle02 {
 
-    public static int valueFunctionSegment(int a, int b, int h) {
+    public static int a = 0;
+    public static int b = 8;
+    public static int h = 2;
+    public static int step = a;
+
+    public static int valueFunctionSegment(int step) {
         int y = 0;
-        while (a <= b) {
-            if (a > 2) {
-                y = a;
-            } else {
-                y = -a;
-            }
-            a = a + h;
+        if (step > 2) {
+            y = step;
+        } else {
+            y = -step;
         }
         return y;
     }
 
     public static void main(String[] args) {
-        valueFunctionSegment(1, 7, 2);
+        do {
+            System.out.println(valueFunctionSegment(step));
+            step += h;
+        }
+        while (step <= b);
     }
 }
