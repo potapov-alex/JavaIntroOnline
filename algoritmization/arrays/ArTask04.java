@@ -1,11 +1,8 @@
-package by.epam.java.algoritmization.arrays;
+package com.epam.IntroductionToJavaOnline.algoritmization.arrays;
 
 /**
- * @author potap; Даны действительные числа a1...an, поменять местами наибольший
- * и наименьший эл-т.
- * <p>
- * хардкод: кол-во чисел n = 10.
- * интервал случайных значений эл-тов массива от -10 до 10
+ * @author Potapov Alexey;
+ * Даны действительные числа a1...an, поменять местами наибольший и наименьший эл-т.
  */
 
 public class ArTask04 {
@@ -33,20 +30,8 @@ public class ArTask04 {
             }
         }
 
-        System.out.println("Массив имеет вид:");
-        for (int x : arrayA) {
-            System.out.print(x + " ");
-        }
-        System.out.println();
-
-        System.out.println("до замены:    " + "наибольший эл-т = " + arrayA[max] + ", ячейка " + max + "; наименьший эл-т = "
-                + arrayA[min] + ", ячейка " + min + ".");
-
         temp = arrayA[max];
         arrayA[max] = arrayA[min];
         arrayA[min] = temp;
-
-        System.out.println("после замены: " + "наибольший эл-т = " + arrayA[max] + ", ячейка " + max + "; наименьший эл-т = "
-                + arrayA[min] + ", ячейка " + min + ".");
     }
 }
